@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url("../img/super_heroes_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.App {
+    width: 90%;
+    max-width: 30em;
+    margin: 5em auto 0;
+    padding: 1em;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+    background: rgba(255, 255, 255, 1);
+}
+
+.App h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 30, 77, 1);
+    border-bottom: 1px solid rgba(51, 51, 51, 1);
+    padding-bottom: 1em;
+}
+
+.quiz {
+    padding: 2em 0;
+}
+
+.quiz h2 {
+    font-size: 1em;
+    color: rgba(0, 30, 77, 1);
+    font-weight: 600;
+}
+
+.btn {
+    width: 100%;
+    margin: 1em 0;
+    padding: .75em;
+    border: .1em solid rgba(34, 34, 34, 1);
+    font-weight: 500;
+    text-align: left;
+    border-radius: .5em;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -o-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(34, 34, 34, 1);
+}
+
+.btn:hover:not([disabled]) {
+    background: rgba(34, 34, 34, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    display: block;
+    cursor: pointer;
+    display: none;
+    background: rgba(0, 69, 77, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    width: 15em;
+    border: 0;
+    padding: 1em;
+    margin: 2em auto 0;
+    border-radius: .3em;
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    -ms-border-radius: .3em;
+    -o-border-radius: .3em;
+}
+
+.correct{
+    background: rgba(27, 218, 155, .8);
+}
+
+.incorrect{
+    background: rgba(218, 61, 27, .8);
+}
